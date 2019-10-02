@@ -17,13 +17,10 @@ public class ToiletSeat{
       input.add(s);
     }
 
-    boolean continueDialog = true;
     boolean seatStart = false;
     int p1 = 0;
     int p2 = 0;
     int p3 = 0;
-
-    while(continueDialog) {
 
       //Check first character to see if toilet seat starts up or down
       String startPosition = input.get(0);
@@ -88,7 +85,5 @@ public class ToiletSeat{
       System.out.println(p2);
       System.out.println(p3);
       //To not trigger infinite loops
-      continueDialog = false;
-    }
   }
 }
