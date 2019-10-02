@@ -18,7 +18,7 @@ public class ToiletSeat{
     }
 
     boolean continueDialog = true;
-    boolean seatStart = true;
+    boolean seatStart = false;
     int p1 = 0;
     int p2 = 0;
     int p3 = 0;
@@ -67,6 +67,7 @@ public class ToiletSeat{
         }else{
           System.out.println("Invalid input, please only enter characters 'U' and 'D'");
         }
+        System.out.println(p2);
       }
       seatUp = seatStart;
 
