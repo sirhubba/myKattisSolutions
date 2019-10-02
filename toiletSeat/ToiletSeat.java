@@ -62,8 +62,8 @@ public class ToiletSeat{
           if(seatUp == false){ p2 = p2 + 2; }
           if(seatUp == true){ p2 = p2 + 1; seatUp = false; }
         }else if(s.equals("D")){
-          if(seatUp == true){ p2 = p2 + 1; seatUp = false; }
           if(seatUp == false){ }
+          if(seatUp == true){ p2 = p2 + 1; seatUp = false; }
         }else{
           System.out.println("Invalid input, please only enter characters 'U' and 'D'");
         }
